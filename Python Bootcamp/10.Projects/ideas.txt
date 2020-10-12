@@ -1,0 +1,71 @@
+Numbers
+Fibonacci Sequence
+Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
+
+Prime Factorization
+Have the user enter a number and find all Prime Factors (if there are any) and display them.
+
+Calculator
+A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
+
+Unit Converter (temp, currency, volume, mass and more)
+Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
+
+Distance Between Two Cities
+Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.
+
+
+
+
+
+Classic Algorithms
+Sorting
+Implement two types of sorting algorithms: Merge sort and bubble sort.
+
+Collatz Conjecture
+Start with a number n > 1. Find the number of steps it takes to reach one using the following process: If n is even, divide it by 2. If n is odd, multiply it by 3 and add 1
+
+
+
+
+
+Text
+Fizz Buzz
+Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+
+Reverse a String
+Enter a string and the program will reverse it and print it out.
+
+Count Vowels
+Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
+
+Count Words in a String
+Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
+
+
+
+
+
+Classes
+Shape Area and Perimeter Classes
+Create an abstract class called Shape and then inherit from it other shapes like diamond, rectangle, circle, triangle etc. Then have each class override the area and perimeter functionality to handle each shape type.
+
+Family Tree Creator
+Create a class called Person which will have a name, when they were born and when (and if) they died. Allow the user to create these Person classes and put them into a family tree structure. Print out the tree to the screen.
+
+
+
+
+
+Threading
+Create A Progress Bar for Downloads
+Create a progress bar for applications that can keep track of a download in progress. The progress bar will be on a separate thread and will communicate with the main thread using delegates.
+
+
+
+
+
+
+Web
+Fetch Current Weather
+Get the current weather for a given zip/postal code. Optional: Try locating the user automatically.

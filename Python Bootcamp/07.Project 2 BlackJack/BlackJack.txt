@@ -1,0 +1,71 @@
+Computer Dealer
+Human Player
+
+Start with a nomal deck of cars,
+a represenation of a deck will be created with python
+with OOP
+
+
+Computer Dealer -> Bank Role
+Human Player -> places a bet
+Deck with 52 Cards
+
+PC start with 1 card face up and 1 card face down
+P start with 2 cards face up
+
+P goes first:
+P Goal: Get close to a total value of 21 than the dealer does
+    1. Hit(Receive another card)
+    2. Stay(Stop Receiving Cards)
+    We'll ignore actions like 'Insurande', 'Split', 'Double', 'Down'
+    Maybe include later
+
+Hit -> new card -> 3 cards -> sum
+Stay -> 2 cards -> sum
+
+After P turn:
+If P under 21, PC hits until they either beat the P or the PC busts.
+
+Game End: Player Busts
+If P keeps hitting and goes over 21, they bust and lost the bet.
+The game is then over and dealer collects the money
+
+Game End: PC beats Player
+After P-Turn: If P is under 21. Dealer then hits until they either beat the player or the PC busts.
+PC sum higher than player sum and still under 21.
+
+Game End: Player Wins
+
+
+
+Special Rules:
+    Face Cards (Jack, Queen, King) count as value of 10
+    Aces can count as either 1 or 11, whichever value is preferable to the player
+
+
+
+
+Milestone Project 2 - Blackjack Game
+In this milestone project you will be creating a Complete BlackJack Card Game in Python.
+
+Here are the requirements:
+
+    You need to create a simple text-based BlackJack game
+    The game needs to have one player versus an automated dealer.
+    The player can stand or hit.
+    The player must be able to pick their betting amount.
+    You need to keep track of the player's total money.
+    You need to alert the player of wins, losses, or busts, etc...
+    And most importantly:
+
+You must use OOP and classes in some portion of your game.
+You can not just use functions in your game.
+Use classes to help you define the Deck and the Player's hand.
+There are many right ways to do this, so explore it well!
+Feel free to expand this game. Try including multiple players.
+Try adding in Double-Down and card splits!
+Remember to you are free to use any resources you want and as always:
+
+HAVE FUN!
+
+

@@ -1,0 +1,25 @@
+This type of functions is a generator in Python,
+allowing us to generate a sequence of values over time.
+
+The main difference in syntax will be the use of a yield statement
+
+When a generator function is compiled they become an object that supports
+an iteration protocol.
+That means when they are called in your code they don't actually return
+a value and then exit.
+
+Generator functions will automatically suspend an resume their execution
+and state around the last point of value generation.
+The advantage is that instead of having to compute an enitre series of
+values up front, the generator computes one value and waits until the
+next value is called for.
+
+For exampe, the range() function doesnt produce a list in memory for all
+the values from start to stop.
+Instead it keeps track of the last number and the step size to provide a
+flow of numbers.
+
+If a user did need the list, the gave to transform the generator to a list
+with list(range(0, 10))
+
+range is a generator
