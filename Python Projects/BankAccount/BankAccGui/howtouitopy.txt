@@ -1,0 +1,1 @@
+C:\ProgramData\Anaconda3\Library\bin\pyuic5.bat -x C:\Users\phili\Desktop\Prog_Sem_2\Python\BankAccGui_P03\BankAccGui.ui -o BankaccGui1.py
